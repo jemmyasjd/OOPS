@@ -65,3 +65,71 @@ Eg :  ~Hero(){
 Static member functions have a scope inside the class and cannot access the current object pointer.
 
 ->You can also use a static member function to determine how many objects of the class have been created.
+## Pillars of OOPS
+
+* ## Encapsulation:
+
+**Encapsulation:** Wrapping of the data members and function into a single entity is called Encapsulation.
+
+**Fully Encapsulated Class:** The class is said to be Fully Encapsulated when all its members or properties is marked as private.
+
+**Why Encapsulation is needed ??**
+
+-> It is used for data hiding or information hiding.
+
+-> Advantages : 
+
+* Data hiding which increase the security concern.
+* If we want we can make the class read-only.
+* Code Resuability
+* Encapsulation helps in unit testing.
+--------------
+
+* ## Inheritance:
+
+**Inheritance:** Inheritance is a mechanism of reusing and extending existing classes without modifying them, thus producing hierarchical relationships between them.
+
+**Types of Inheritance:**
+
+* **Single Level** : The inheritance in which a single derived class is inherited from a single base class is known as the Single Inheritance. 
+* **Multilevel**: When one class inherits another class it is further inherited by another class. It is known as multi-level inheritance.
+* **Multiple** : Multiple Inheritance is a feature of C++ where a class can inherit from more than one classes.
+* **Hierarchical**: one base class is inherited by more than one derived class.
+* **Hybrid** :The process of combining more than one type of Inheritance together while deriving subclasses in a program is called a Hybrid Inheritance. 
+
+---------------
+
+* ## Polymorphism:
+
+**Polymorphism:** Polymorphism means, the same entity (function or object) behaves differently in different scenarios.
+
+**Types of Polymorphism:**
+
+* **Compile Time Polymorphism:(also called static polymorphism)** When the relationship between the definition of different functions and their function calls, is determined during the compile-time, it is known as compile-time polymorphism. 
+
+It has two types : 1) Function Overloading and 2) Operator Overloading
+* **Run Time Polymorphism:(also called dynamic polymorphism):** In runtime polymorphism, the compiler resolves the object at run time and then it decides which function call should be associated with that object. It is also known as dynamic or late binding polymorphism. 
+
+The type of runtime polymorphism is : Method Overriding.
+
+**Rules for method Overriding:**
+
+* method must have same name
+* must have same parameter 
+* possible through inheritance only
+
+---------------
+
+* ## Abstraction:
+
+**Abstraction:**  It refers to showing only relevant information to the outside world. In simple words, we can say it means hiding any background information from the outside world.
+
+It can be done through 3 ways : 1) Using access modifiers  2) Abstract Class 3) Using Data Abstraction
+
+-------------
+
+**Interface:** 🔗 https://www.geeksforgeeks.org/cpp-program-to-create-an-interface/
+
+**Friend function:** A friend function is a function that isn't a member of a class but has access to the class's private and protected members.
+
+🔗 https://www.geeksforgeeks.org/friend-class-function-cpp/
