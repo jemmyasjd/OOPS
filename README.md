@@ -22,7 +22,7 @@
 
 1) Public : Can access the member from any where.
 2) Private : Member can access within the class only
-3) Protected :
+3) Protected : Member can acces within the class and its child members
 
 
 
